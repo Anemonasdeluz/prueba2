@@ -1,0 +1,22 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+    text-align: center;
+    margin: 30px;
+    background: rgb(113,143,226);
+background: linear-gradient(0deg, rgba(113,143,226,1) 0%, rgba(121,216,154,1) 100%);
+}
+
+#resultado{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 30px 10px;
+}
+
+.card{
+  background-color: rgb(190, 249, 221);
+}
